@@ -6,8 +6,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-    
-    base: '/void-codex/',
 
     integrations: [
         starlight({
