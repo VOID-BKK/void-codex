@@ -9,7 +9,7 @@ export default defineConfig({
 
     integrations: [
         starlight({
-            title: 'My Docs',
+            title: 'VØID* Codex',
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
             defaultLocale: 'en',
             locales: {
