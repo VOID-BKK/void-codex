@@ -11,6 +11,16 @@ export default defineConfig({
         starlight({
             title: 'My Docs',
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+            defaultLocale: 'en',
+            locales: {
+                'en': {
+                    label: 'English',
+                },
+                'th': {
+                    label: 'ภาษาไทย',
+                    lang: 'th',
+                },
+            },
             sidebar: [
                 {
                     label: 'Python 🐍',
